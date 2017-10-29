@@ -1,0 +1,173 @@
+.contain{
+             background:#ecf2f6;
+            background-size: 100% 100%;
+         overflow: hidden;
+            /*background-position: right bottom ;*/
+           
+}
+.contain>.header_top{
+	width:100%;
+	height:85px;
+    line-height:85px;
+    background: #354052;
+    float: left;
+}
+.header_top>.return{
+    display: block;
+    margin-left:5%;
+    float: left;
+    position: absolute;
+    height: 40px;
+    line-height: 40px;
+    top: 21px;
+}
+.return>img{
+    height:40px;
+}
+.header_top>p{
+   color: #fff;
+    font-size: 3rem;
+    text-align: -webkit-center;
+    text-align: center;
+    font-size: 2.5vw;
+}
+.contain>.header_bottom{
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    box-shadow:0px 2px 2px rgba(5,21,40,0.1);
+    float: left;
+}
+.contain>.main{
+        margin-top: 36px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+}
+.tab_sumary{
+    width:100%;
+    text-align: center;
+    
+}
+.tab_content{ width:100%;
+    text-align: center;min-height:500px;
+    clear:both;float:left;}
+.tab_sumary tr th{
+    text-align: center;
+    color:#fff;
+    padding:5px;
+}
+.tab_sumary tr:nth-child(even){
+        background:#fff;
+        
+    }
+    .tab_sumary tr:nth-child(odd){
+        background:#e2ecf2;
+        
+    }
+.table_bottom{
+    text-align: -webkit-left;
+    text-align:left;
+    color:#ea7073;
+}
+.left{
+    text-align: left;
+}
+.table_bottom>.problem{
+    position: absolute;
+}
+.pro_one{
+    margin-left: 90px;
+}
+caption{
+    color:#43c0b5;
+    font-weight: 700;
+    font-size: 2vw;
+}
+.tables{
+    width: 96%;
+    margin-left: 2%;
+    height: 100%;
+    overflow: hidden;
+    padding: 20px 40px;
+    background: #e2ecf2;
+}
+.tab_sumary tr td{
+    padding: 5px;
+    
+    text-align: center;
+}
+/*  datatime  */
+.datetime .add-on{
+	display: inline-block;
+    width: 30px;
+    height: 32px;
+    background:url(../../img/dateicon.png);
+    position: absolute;
+    right: 10px;
+    top: 6px;   
+    cursor: pointer;}
+.time .datetime{display:inline-block;position: relative;}
+.time-start,.time-end{float:left;font-size:18px;margin-right:5px;}  
+.time-start lable{float:left;font-size:24px;}  
+.datetime .time-input{
+	width:275px;
+	height:45px;
+	border-radius:8px;
+	border:2px solid #e2e5e9;
+	background:#fff;
+	font-size:24px;
+	color:#666;
+	text-indent:8px;
+}
+.time .tag{font-size:24px;float:left;}
+.datepicker-dropdown{top:152px;}
+.dropdown-menu{min-width:275px;}
+
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn){
+	width:275px;
+}
+.bootstrap-select.btn-group .dropdown-toggle .caret{
+	
+    display:none;
+}
+.arricon{
+	position: absolute;
+    top: 50%;
+    right: 14px;
+    margin-top:-7px;
+    vertical-align: middle;
+    background:url(../../img/arricon.png) no-repeat;
+    display:inline-block;
+    width:20px;
+    height:14px;
+}
+.btn-default{width: 275px;
+    height: 45px;
+    border-radius: 8px;
+    border: 2px solid #e2e5e9;
+    background: #fff;
+    font-size: 24px;
+    color: #666;
+    text-indent: 8px;}
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
+	background:none;
+	border: 2px solid #e2e5e9;
+   outline:none;
+}
+.dropdown-menu>li>a{
+	font-size:18px;
+}
+.bootstrap-select .dropdown-toggle:focus{
+	outline:none;
+	    outline: 0px auto -webkit-focus-ring-color !important
+}
+
+
+.btn-group.open .dropdown-toggle {
+    -webkit-box-shadow: none; 
+    box-shadow: none; 
+    outline:none;
+    
+} 

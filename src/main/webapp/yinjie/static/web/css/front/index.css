@@ -1,0 +1,122 @@
+.contain{
+    background-color: rgba(255, 255, 255, 1);
+    background-image: url('../../img/background1.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    float:left;
+	 background-attachment: fixed;
+    position: static;
+}
+.contain>.header_top{
+	width: 100%;
+        overflow: hidden;
+}
+.header_top>.imgLeft{
+	padding:0;
+}
+.content>.little_title{
+   position: absolute;
+    top: -35px;
+    right: 0;
+    margin-right: 35px;
+    color: #fff;
+    font-size: 1.5vw;
+}
+.imgLeft>img{
+	    width: 100%;
+}
+.imgLeft>.xiaokanban{
+	position: absolute;
+    color: #fff;
+    font-size: 3vw;
+    left: 30%;
+    font-weight: bold;
+}
+.imgLeft>.img_margin{
+	   width: 107%;
+    margin-left: -7%;
+}
+.contain>.content{
+	margin: 0;
+    height: 100%;
+    width: 90%;
+    float: left;
+    margin-left: 5%;
+    position: relative;
+}
+.first_line{
+    height:60%;
+}
+.link_url{
+    position: relative;
+	transition: all 1s;
+}
+.link_url:hover{
+    transform:scale(1.1);
+}
+
+.weichuangxin{
+	width:100%;
+}
+.link_url>.text_indent{
+	bottom: 13%;
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+    position: absolute;
+    width: 100%;
+    text-align: -webkit-center;
+		text-align: center;
+}
+.link_url>.text_intro{
+	 bottom: 13%; 
+	 color: rgb(255, 255, 255);
+	  font-size: 2vw;
+	   position: absolute;
+	   width: 100%;
+    text-align: -webkit-center;
+	text-align: center;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 35px;
+    padding-left: 35px;
+	/*height: 100%;*/
+    padding-bottom: 0;
+    margin-bottom: 40px;
+}
+.link_url>.img_box{
+    position: absolute;
+    width: 100%;
+    text-align: -webkit-center;
+    top: 13%;
+}
+.img_box>.img{
+        width: 55%;
+}
+.img_box>.img_spe{
+    width:18.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
